@@ -21,7 +21,7 @@
         </div>
         <div class="col-3">
             
-                <input type="button" class="btn-save" name="Add new student" value="Add new student" (click)="addNewStudent()" />
+                <input type="button" class="btn-save" [disabled]="isAddnewDisabled()" name="Add new student" value="Add new student" (click)="addNewStudent()" />
             
         </div>
     </div>

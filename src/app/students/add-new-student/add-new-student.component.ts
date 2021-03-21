@@ -30,4 +30,12 @@ studentEmail: string;
     this.rollNumber = null;
   }
 
+  isAddnewDisabled(): boolean {
+    let isDisabled = false;
+    if (!this.studentEmail || !this.studentName || !this.rollNumber) {
+      isDisabled = true;
+    }
+    return isDisabled;
+  }
+
 }

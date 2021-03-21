@@ -1,0 +1,27 @@
+<div class="container table-content">
+    <h5>Students data</h5>
+    <div class="flex-data">
+        <table *ngIf="studentsData.length">
+            <thead>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of studentsData;let i=index">
+                    <td>{{item.rollNumber}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.email}}</td>
+                    <td>
+                        <input type="button" name="view" value="View" (click)="editStudent(item)" />
+                        <input type="button" name="delete" value="Delete" (click)="deleteStudent(i)" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div *ngIf="studentsData.length===0" class="flex-data">
+        No data available
+    </div>
+</div>

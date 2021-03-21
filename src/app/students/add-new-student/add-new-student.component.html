@@ -1,0 +1,28 @@
+<div class="container table-content">
+    <h5>Add new student</h5>
+    <div class="row">
+        <div class="col-3">
+            <div>Student Roll No.</div>
+            <div>
+                <input type="number" [(ngModel)]="rollNumber" id="studentrollNo" />
+            </div>
+        </div>
+        <div class="col-3">
+            <div>Student name</div>
+            <div>
+                <input type="text" [(ngModel)]="studentName" id="studentrollNo" />
+            </div>
+        </div>
+        <div class="col-3">
+            <div>Email</div>
+            <div>
+                <input type="text" [(ngModel)]="studentEmail" id="studentrollNo" />
+            </div>
+        </div>
+        <div class="col-3">
+            
+                <input type="button" class="btn-save" name="Add new student" value="Add new student" (click)="addNewStudent()" />
+            
+        </div>
+    </div>
+</div>

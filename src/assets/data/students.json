@@ -1,0 +1,17 @@
+{
+    "studentsData": [
+        {
+            "rollNumber": 12,
+            "name": "Akshay",
+            "email": "akshay@gmail.com"
+        },{
+            "rollNumber": 13,
+            "name": "Ganesh",
+            "email": "ganesh@gmail.com"
+        },{
+            "rollNumber": 14,
+            "name": "Nitesh",
+            "email": "nitesh@gmail.com"
+        }
+    ]
+}

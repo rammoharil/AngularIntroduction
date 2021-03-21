@@ -6,6 +6,7 @@
                 <th>Roll No</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Date of birth</th>
                 <th>Action</th>
             </thead>
             <tbody>
@@ -14,6 +15,7 @@
                     <td>{{item.name | uppercase}}</td> 
                     <!-- uppercase pipe is used -->
                     <td>{{item.email}}</td>
+                    <td>{{item.dob | date: 'mediumDate'}}</td>
                     <td>
                         <input type="button" name="view" value="View" (click)="editStudent(item)" />
                         <input type="button" name="delete" value="Delete" (click)="deleteStudent(i)" />

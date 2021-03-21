@@ -3,15 +3,18 @@
         {
             "rollNumber": 12,
             "name": "Akshay",
-            "email": "akshay@gmail.com"
+            "email": "akshay@gmail.com",
+            "dob": "1996-01-20"
         },{
             "rollNumber": 13,
             "name": "Ganesh",
-            "email": "ganesh@gmail.com"
+            "email": "ganesh@gmail.com",
+            "dob": "1993-01-20"
         },{
             "rollNumber": 14,
             "name": "Nitesh",
-            "email": "nitesh@gmail.com"
+            "email": "nitesh@gmail.com",
+            "dob": "1996-05-20"
         }
     ]
 }
